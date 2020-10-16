@@ -10,9 +10,12 @@ const options = {
 
 const client = Client.init(options);
 
-let res = await client.api('/me/insights/used')
+const setVerifiedPublisher = {
+    verifiedPublisherId: "1234567"
+};
+
+let res = await client.api('/applications/{id}/setVerifiedPublisher')
 	.version('beta')
-	.orderby('LastUsed/LastAccessedDateTime')
-	.get();
+	.post(setVerifiedPublisher);
 
 ```
