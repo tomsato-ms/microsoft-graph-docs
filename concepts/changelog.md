@@ -28,7 +28,7 @@ For a summary of the value of these API changes, as well as recent tools, compon
 
 | **Change type** | **Version** | **Description**                                                                                                                                     |
 | :-------------- | :---------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Addition        | beta        | Added `lastUpdateDateTime` to the [synchronization profile](/graph/api/resources/educationsynchronizationprofile.md?view=graph-rest-bet)] resource. |
+| Addition        | beta        | Added `lastActivityDateTime` to the [synchronization profile](/graph/api/resources/educationsynchronizationprofile.md?view=graph-rest-bet)] resource. |
 
 ## September 2020
 

@@ -30,7 +30,7 @@ Represents the synchronization status of a school data [synchronization profile]
 | id                          | String                         | The unique identifier for the resource. (read-only)                                                                      |
 | status                      | educationSynchronizationStatus | The status of a sync. Possible values are: `paused`, `inProgress`, `success`, `error`, `quarantined`, `validationError`. |
 | lastSynchronizationDateTime | DateTimeOffset                 | Represents the time when most recent changes have been observed in the directory.                                        |
-| lastUpdateDateTime          | DateTimeOffset                 | Represents the time of the most recent changes to the [profile](educationsynchronizationprofile.md) .                    |
+| lastActivityDateTime        | DateTimeOffset                 | Represents the time of the most recent activity for the [profile](educationsynchronizationprofile.md) .                  |
 
 ## JSON representation
 
@@ -48,6 +48,6 @@ Represents the synchronization status of a school data [synchronization profile]
   "id": "String",
   "status": { "@odata.type": "microsoft.graph.educationSynchronizationStatus" },
   "lastSynchronizationDateTime": "DateTimeOffset",
-  "lastUpdateDateTime": "DateTimeOffset"
+  "lastActivityDateTime": "DateTimeOffset"
 }
 ```

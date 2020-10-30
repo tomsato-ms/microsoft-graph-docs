@@ -102,7 +102,7 @@ Content-length: 232
     "id": "86904b1e-c7d0-4ead-b13a-98f11fc400ee",
     "status": "inProgress",
     "lastSynchronizationDateTime": "2017-07-04T22:06:37.6472621Z",
-    "lastUpdateDateTime": "2017-07-04T22:06:37.6472621Z"
+    "lastActivityDateTime": "2017-07-04T22:06:37.6472621Z"
 }
 ```
 
