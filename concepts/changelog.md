@@ -11,6 +11,15 @@ This changelog covers specific API-level changes in Microsoft Graph v1.0 and bet
 
 For a summary of the value of these API changes, as well as recent tools, components, guidance, and tutorial additions, see [What's new in Microsoft Graph](whats-new-overview.md).
 
+## November 2020
+
+### Change notifications
+
+| **Change type** | **Version**   | **Description**                          |
+| :-------------- | :------------ | :--------------------------------------- |
+| Addition | beta | Added the **notificationQueryOptions** property to the [subscription](/graph/api/resources/subscription?view=graph-rest-beta) resource.|
+| Addition | v1.0 | Added the **notificationQueryOptions** property to the [subscription](/graph/api/resources/subscription?view=graph-rest-1.0) resource.|
+
 ## October 2020
 
 ### Applications
