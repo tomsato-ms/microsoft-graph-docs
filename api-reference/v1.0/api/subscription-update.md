@@ -134,19 +134,22 @@ Content-type: application/json
 Content-length: 252
 
 {
-  "id":"7f105c7d-2dc5-4530-97cd-4e7ae6534c07",
-  "resource":"me/messages",
+  "id": "0fc0d6db-0073-42e5-a186-853da75fb308",
+  "resource": "print/printers/cb58b876-ee0f-4819-bad4-cd9e11c5545c/jobs",
   "applicationId": "24d3b144-21ae-4080-943f-7067b395b913",
-  "changeType":"created,updated",
-  "clientState":"subscription-identifier",
-  "notificationUrl":"https://webhook.azurewebsites.net/api/send/myNotifyClient",
-  "lifecycleNotificationUrl":"https://webhook.azurewebsites.net/api/send/lifecycleNotifications",
-  "expirationDateTime":"2016-11-22T18:23:45.9356913Z",
+  "changeType": "updated,deleted",
+  "clientState": "mysecret",
+  "notificationUrl": "https://webhookappexample.azurewebsites.net/api/notifications",
+  "expirationDateTime": "2019-05-09T00:00:00Z",
   "creatorId": "8ee44408-0679-472c-bc2a-692812af3437",
+  "includeProperties": null,
+  "includeResourceData": false,
+  "encryptionCertificate": null,
+  "encryptionCertificateId": null,
+  "encryptionCertificateThumbprint": null,
   "latestSupportedTlsVersion": "v1_2",
-  "encryptionCertificate": "",
-  "encryptionCertificateId": "",
-  "includeResourceData": false
+  "lifecycleNotificationUrl": "https://webhookappexample.azurewebsites.net/api/lifecyclenotifications",
+  "notificationQueryOptions": "$filter=isFetchable eq true or status eq completed"
 }
 ```
 

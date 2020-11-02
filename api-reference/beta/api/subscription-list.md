@@ -124,13 +124,17 @@ Content-type: application/json
       "resource": "print/printers/cb58b876-ee0f-4819-bad4-cd9e11c5545c/jobs",
       "applicationId": "24d3b144-21ae-4080-943f-7067b395b913",
       "changeType": "updated,deleted",
+      "clientState": "mysecret",
       "notificationUrl": "https://webhookappexample.azurewebsites.net/api/notifications",
       "expirationDateTime": "2019-05-09T00:00:00Z",
       "creatorId": "8ee44408-0679-472c-bc2a-692812af3437",
       "includeProperties": null,
+      "includeResourceData": false,
       "encryptionCertificate": null,
       "encryptionCertificateId": null,
       "encryptionCertificateThumbprint": null,
+      "latestSupportedTlsVersion": "v1_2",
+      "lifecycleNotificationUrl": "https://webhookappexample.azurewebsites.net/api/lifecyclenotifications",
       "notificationQueryOptions": "$filter=isFetchable eq true or status eq completed"
     }
   ]
