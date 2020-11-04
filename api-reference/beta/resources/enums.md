@@ -1457,3 +1457,12 @@ Possible values for user account types (group membership), per Windows definitio
 | application
 | delegated
 | delegatedUserConsentable
+
+### chatType values 
+
+|Members|
+|:---|
+|oneOnOne|
+|group|
+|meeting|
+|unknownFutureValue|
