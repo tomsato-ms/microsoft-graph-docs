@@ -101,6 +101,7 @@ Content-length: 201
     "topic": null,
     "createdDateTime": "2019-04-18T23:51:42.099Z",
     "lastUpdatedDateTime": "2019-04-18T23:51:43.255Z"
+    "chatType": "oneOnOne"
 }
 ```
 

@@ -19,6 +19,8 @@ For a summary of the value of these API changes, as well as recent tools, compon
 | :-------------- | :---------- | :--------------------------------------- |
 | Addition | v1.0 | Added support for [resource-specific consent](https://aka.ms/teams-rsc) (RSC) permissions to v1.0 APIs. |
 | Addition | v1.0 | Added [read channel message APIs](/graph/api/resources/chatmessage?view=graph-rest-v1.0). |
+| Addition | beta | Added the **chatType** property to [chat](https://docs.microsoft.com/en-us/graph/api/resources/chat?view=graph-rest-beta) resource. |
+| Addition | beta | Added the **chatType** enumeration type. |
 
 ## October 2020
 
