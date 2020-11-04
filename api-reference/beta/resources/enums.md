@@ -1460,9 +1460,9 @@ Possible values for user account types (group membership), per Windows definitio
 
 ### chatType values 
 
-|Members|
-|:---|
-|oneOnOne|
-|group|
-|meeting|
-|unknownFutureValue|
+| Member             | Value | Description                                                                                                                                                  |
+| :----------------- | :---- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|oneOnOne            | 0     | Indicates the chat can be a 1:1 chat. The roster size is fixed for this type of chat, the member cannot be removed / added.                                  |
+|group               | 1     | Indicates the chat is a Group chat. The roster size (of at least 2 person) can be updated for this type of chat, the member can be removed / added later on. |
+|meeting             | 2     | Indicates the chat is a Meeting chat, which is created as a side effect of Meeting that are created from another api.                                        |
+|unknownFutureValue  | 3     | A sentinel member.                                                                                                                                           |
