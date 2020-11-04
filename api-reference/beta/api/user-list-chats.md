@@ -106,7 +106,7 @@ Content-type: application/json
       "topic": "topic-value",
       "createdDateTime": "datetime-value",
       "lastUpdatedDateTime": "datetime-value"
-      "chatType": "enum-value"
+      "chatType": "chatType-value"
     }
   ]
 }
