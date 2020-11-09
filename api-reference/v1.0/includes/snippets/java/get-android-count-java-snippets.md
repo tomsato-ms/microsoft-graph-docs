@@ -10,7 +10,7 @@ LinkedList<Option> requestOptions = new LinkedList<Option>();
 requestOptions.add(new HeaderOption("ConsistencyLevel", "eventual"));
 requestOptions.add(new QueryOption("$search", "displayName:Android"));
 
-IDeviceCollectionPage devices = graphClient.devices()
+DeviceCollectionPage devices = graphClient.devices()
 	.buildRequest( requestOptions )
 	.get();
 

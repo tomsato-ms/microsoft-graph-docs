@@ -6,7 +6,7 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 IGraphServiceClient graphClient = GraphServiceClient.builder().authenticationProvider( authProvider ).buildClient();
 
-IOpenShiftCollectionPage openShifts = graphClient.teams("{id}").schedule().openShifts()
+OpenShiftCollectionPage openShifts = graphClient.teams("{id}").schedule().openShifts()
 	.buildRequest()
 	.get();
 

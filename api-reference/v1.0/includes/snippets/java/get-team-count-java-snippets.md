@@ -10,7 +10,7 @@ LinkedList<Option> requestOptions = new LinkedList<Option>();
 requestOptions.add(new HeaderOption("ConsistencyLevel", "eventual"));
 requestOptions.add(new QueryOption("$search", "displayName:Team"));
 
-IServicePrincipalCollectionPage servicePrincipals = graphClient.servicePrincipals()
+ServicePrincipalCollectionPage servicePrincipals = graphClient.servicePrincipals()
 	.buildRequest( requestOptions )
 	.get();
 

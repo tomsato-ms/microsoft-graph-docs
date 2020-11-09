@@ -9,7 +9,7 @@ IGraphServiceClient graphClient = GraphServiceClient.builder().authenticationPro
 LinkedList<Option> requestOptions = new LinkedList<Option>();
 requestOptions.add(new HeaderOption("ConsistencyLevel", "eventual"));
 
-IUserCollectionPage users = graphClient.users()
+UserCollectionPage users = graphClient.users()
 	.buildRequest( requestOptions )
 	.filter("startswith(displayName,'a'),")
 	.orderBy("displayName ")

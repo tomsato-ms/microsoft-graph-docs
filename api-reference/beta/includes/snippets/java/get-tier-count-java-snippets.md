@@ -10,7 +10,7 @@ LinkedList<Option> requestOptions = new LinkedList<Option>();
 requestOptions.add(new HeaderOption("ConsistencyLevel", "eventual"));
 requestOptions.add(new QueryOption("$search", "displayName:tier"));
 
-IGroupCollectionPage group = graphClient.users("{id}").transitiveMemberOf().microsoft.graph.group()
+GroupCollectionPage group = graphClient.users("{id}").transitiveMemberOf().microsoft.graph.group()
 	.buildRequest( requestOptions )
 	.select("displayName,id")
 	.orderBy("displayName ")

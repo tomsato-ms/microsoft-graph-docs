@@ -10,7 +10,7 @@ LinkedList<Option> requestOptions = new LinkedList<Option>();
 requestOptions.add(new HeaderOption("ConsistencyLevel", "eventual"));
 requestOptions.add(new QueryOption("$search", "displayName:wa"));
 
-IOrgContactCollectionPage contacts = graphClient.contacts()
+OrgContactCollectionPage contacts = graphClient.contacts()
 	.buildRequest( requestOptions )
 	.get();
 

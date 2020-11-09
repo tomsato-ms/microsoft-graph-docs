@@ -9,7 +9,7 @@ IGraphServiceClient graphClient = GraphServiceClient.builder().authenticationPro
 LinkedList<Option> requestOptions = new LinkedList<Option>();
 requestOptions.add(new HeaderOption("ConsistencyLevel", "eventual"));
 
-IGroupCollectionPage groups = graphClient.groups()
+GroupCollectionPage groups = graphClient.groups()
 	.buildRequest( requestOptions )
 	.filter("hasMembersWithLicenseErrors+eq+true,")
 	.select("id,displayName")

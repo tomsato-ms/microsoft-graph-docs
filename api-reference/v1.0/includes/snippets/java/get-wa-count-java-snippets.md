@@ -10,7 +10,7 @@ LinkedList<Option> requestOptions = new LinkedList<Option>();
 requestOptions.add(new HeaderOption("ConsistencyLevel", "eventual"));
 requestOptions.add(new QueryOption("$search", "displayName:wa"));
 
-IUserCollectionPage users = graphClient.users()
+UserCollectionPage users = graphClient.users()
 	.buildRequest( requestOptions )
 	.orderBy("displayName ")
 	.get();
