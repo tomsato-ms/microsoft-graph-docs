@@ -91,7 +91,8 @@ Content-length: 72
 
 {
   "contributionToContentDiscoveryAsOrganizationDisabled": false,
-  "contributionToContentDiscoveryDisabled": true
+  "contributionToContentDiscoveryDisabled": true,
+  "itemInsightsEnabled": false
 }
 ```
 
